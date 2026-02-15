@@ -1,4 +1,4 @@
-
+<script>
 import {RecaptchaEnterpriseServiceClient} from '@google-cloud/recaptcha-enterprise';
 import {PasswordCheckVerification} from 'recaptcha-password-check-helpers';
 
@@ -135,3 +135,4 @@ checkPasswordLeak(projectId, username, password).catch(err => {
   console.error(err.message);
   process.exitCode = 1;
 });
+</script>
